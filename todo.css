@@ -5,8 +5,7 @@
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
   user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
+  
 }
 
 /* All hs */
