@@ -161,10 +161,7 @@ circleDiv.classList.remove("circle-li-light")
     }
 });
 
-// svgCheck.addEventListener("click",function(){
-// listElement.classList.remove("li-light")
-// circleDiv.classList.remove("circle-li-light")
-// })
+
 
 // DRAG AND DROP//
 
