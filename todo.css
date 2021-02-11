@@ -133,6 +133,7 @@ h1 {
   position: absolute;
   left: 30%;
   top: 180px;
+  z-index:50;
 }
 
 .todo-value-container ul {
