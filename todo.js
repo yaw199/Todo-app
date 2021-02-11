@@ -169,7 +169,7 @@ circleDiv.classList.remove("circle-li-light")
 // DRAG AND DROP//
 
 new Sortable (orderedList, {animation:150})
-listElement.setAttribute("dragable","true");
+listElement.setAttribute("draggable","true");
 
 
 // CONDITION FOR SVGs//
