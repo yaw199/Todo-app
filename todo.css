@@ -17,7 +17,6 @@ h1 {
 .todo-background {
   background-color: hsl(235, 21%, 11%);
   min-height: 100vh;
-  max-width: 1000px;
   margin: auto;
   position: relative;
 }
@@ -134,6 +133,7 @@ h1 {
   left: 30%;
   top: 180px;
   z-index: 50;
+  height: 100%;
 }
 
 .todo-value-container ul {
@@ -234,6 +234,7 @@ h1 {
 }
 .todo-value-container li .check-active {
   opacity: 1;
+  z-index: 7;
 }
 .todo-value-container li .cross {
   position: absolute;
@@ -257,6 +258,7 @@ h1 {
   top: 7.5px;
   border-radius: 50%;
   cursor: pointer;
+  z-index: 6;
 }
 
 /* LIGHT MODE */
@@ -279,6 +281,9 @@ h1 {
 }
 
 .circle-light {
+  width: 22px;
+  height: 22px;
+  position: absolute;
   border: 1.2px solid hsl(233, 11%, 84%);
   left: 15px;
   top: 6px;
@@ -339,7 +344,6 @@ h1 {
   }
   /* BACKGROUND */
   .todo-background {
-    min-height: 100vh;
     width: 380px;
   }
 
